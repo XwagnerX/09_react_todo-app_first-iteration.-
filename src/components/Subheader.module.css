@@ -1,0 +1,11 @@
+.heading__subtitle {
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  .heading__subtitle {
+    color: var(--text-dark);
+  }
+}
