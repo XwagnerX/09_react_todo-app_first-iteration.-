@@ -1,0 +1,19 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Calibri, sans-serif;
+}
+
+body {
+  background-color: var(--bg-dark);
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--bg-light);
+  }
+}
